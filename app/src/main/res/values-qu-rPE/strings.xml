@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Examen App</string>
+    <string name="question_1">¿Qué país tiene un PIB de más de 15.000.000 USD?</string>
+    <string name="question_2">¿Qué país tiene la mayor cantidad de variedades de papa?</string>
+    <string name="question_3">Marque todos los países que se encuentran en Sudamérica.</string>
+    <string name="question_4">¿Cómo se llama este país?</string>
+    <string name="question_5">¿Cuál de estos países es cinco veces campeón de fútbol?</string>
+    <string name="question_6">¿De qué color se supone que es este país?</string>
+    <string name="question_7">Nombra este país:</string>
+    <string name="result_info">Tienes <xliff:g id="numberOfQuestions">%d</xliff:g>/7 respuestas correctas.\n\nRevisa las siguientes:\n<xliff:g>%s</xliff:g></string>
+
+</resources>

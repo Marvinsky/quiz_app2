@@ -1,4 +1,5 @@
-<resources>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name">Quiz App</string>
     <string name="question_1">1. which country has a PBI of more than 15,000,000 USD?</string>
@@ -8,5 +9,6 @@
     <string name="question_5">5. Which of these countries is a five-time soccer champion?</string>
     <string name="question_6">6. What color is this country supposed to be?</string>
     <string name="question_7">7. Name this country:</string>
+    <string name="result_info">You got <xliff:g id="numberOfQuestions">%d</xliff:g>/7 answers right.\n\nRecheck the following:\n<xliff:g>%s</xliff:g></string>
 
 </resources>

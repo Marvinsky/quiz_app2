@@ -82,7 +82,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Context context = getApplicationContext();
-        CharSequence text = "You got " + numberOfQuestionsCorrect + "/7 answers right.\n\nRecheck the following:\n" + sb.toString();
+        //CharSequence text = "You got " + numberOfQuestionsCorrect + "/7 answers right.\n\nRecheck the following:\n" + sb.toString();
+        CharSequence text = getString(R.string.result_info, numberOfQuestionsCorrect, sb.toString());
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
